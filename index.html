@@ -786,6 +786,8 @@
                 }
                 else{
                     //Mostrar el menu
+                    $('section#amenities ul#amul li').removeClass('active')
+                    $('section#amenities ul#amul li').addClass('menuclose')
                     $('#amenities').removeClass()
                     menu_visible = true
                     $('.mpb .text').show()
